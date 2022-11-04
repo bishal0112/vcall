@@ -1,0 +1,18 @@
+<!doctype html>
+    <head>
+    <title>VCALL</title>
+    </head>
+    <body>
+        <h1>VCALL</h1>                    
+        <div id="selectRoom">
+            <label>TYPE VIDEO ROOM NAME</label>
+            <input id="roomNumber" type="text"/>
+            <button id="goRoom">ENTER</button>
+        </div>
+        <div id="consultingRoom" style="display:none">
+              <video id="localVideo" autoplay></video>
+              <video id="remoteVideo" autoplay></video>
+        </div>
+        <script src = "/socket.io/socket.io.js"></script>
+        <script src = "main.js"></script>
+    </body>
